@@ -1,4 +1,29 @@
+---
+html:
+
+    toc: true
+    toc_depth: 6
+    toc_float: true
+        collapsed: false
+        smooth_scroll: true
+
+---
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
 # Meta-Loopless Sorts
+
+<!-- code_chunk_output -->
+
+- [Meta-Loopless Sorts](#meta-loopless-sorts)
+  - [1. 题目](#1-题目)
+    - [Sample Input](#sample-input)
+    - [Sample Output](#sample-output)
+    - [1.1 题意](#11-题意)
+  - [2. 思路](#2-思路)
+    - [2.1 问题](#21-问题)
+  - [3. 实现](#3-实现)
+
+<!-- /code_chunk_output -->
 
 ## 1. 题目
 
