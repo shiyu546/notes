@@ -18,13 +18,13 @@ For example, two slightly different 5 $\times$ 6 matrices are shown below (the o
 
 The minimal path is illustrated for each matrix. Note that the path for the matrix on the right takes advantage of the adjacency property of the first and last rows.
 
-## Input
+### Input
 
 The input consists of a sequence of matrix specifications. Each matrix specification consists of the row and column dimensions in that order on a line followed by m $\times$ n integers where m is the row dimension and n is the column dimension. The integers appear in the input in row major order, i.e., the first n integers constitute the first row of the matrix, the second n integers constitute the second row and so on. The integers on a line will be separated from other integers by one or more spaces. Note: integers are not restricted to being positive.
 
 There will be one or more matrix specifications in an input file. Input is terminated by end-of-file. For each specification the number of rows will be between 1 and 10 inclusive; the number of columns will be between 1 and 100 inclusive. No path’s weight will exceed integer values representable using 30 bits.
 
-## Output
+### Output
 
 Two lines should be output for each matrix specification in the input file, the first line represents a minimal-weight path, and the second line is the cost of a minimal path. The path consists of a sequence of n integers (separated by one or more spaces) representing the rows that constitute the minimal path.
 
@@ -32,7 +32,7 @@ If there is more than one path of minimal weight the path that is lexicographica
 
 Note: Lexicographically means the natural order on sequences induced by the order on their elements.
 
-## Sample Input
+### Sample Input
 
 5 6
 3 4 1 2 8 6
@@ -50,7 +50,7 @@ Note: Lexicographically means the natural order on sequences induced by the orde
 9 10
 9 10
 
-## Sample Output
+### Sample Output
 
 1 2 3 4 4 5
 16
@@ -59,7 +59,7 @@ Note: Lexicographically means the natural order on sequences induced by the orde
 1 1
 19
 
-## 1.1. 题意
+### 1.1. 题意
 
 题意是给定一个矩阵，从最左边列往右按相邻的格子走，直至矩阵最后一列，找到一条路径的节点和最小，并且有多条路径和一样时，找到路径节点顺序最小的那条。注意矩阵是上下相通的，第一排可以走到最后一排，反之亦然。
 
@@ -114,11 +114,11 @@ digraph matrix{
 }
 ```
 
-## 2.1问题
+### 2.1问题
 
-### 2.1.1 实现上的问题
+#### 2.1.1 实现上的问题
 
-### 2.1.2 性能上的问题
+#### 2.1.2 性能上的问题
 
 ## 3. 实现
 
